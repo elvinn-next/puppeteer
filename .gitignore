@@ -1,0 +1,78 @@
+# JerseyAve gitignore 
+#---------------------------------------------
+
+
+# Temporary files system
+#-------------------------
+.DS_Store
+/**/.DS_Store
+/storages/
+
+*.htaccess
+
+uploads/*
+
+application/cache/*
+!application/cache/index.html
+
+application/logs/*
+!application/logs/index.html
+
+application/session/*
+!application/session/index.html
+
+application/config/*
+!application/config/index.html
+
+!application/*/.htaccess
+
+composer.lock
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+/vendor/
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+# Netbeans
+#-------------------------
+/nbproject/private/
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+/tests/tests/
+/tests/results/
+
+# Tests
+#-------------------------
+/tests/images/*.png
+
+# NPM
+#-------------------------
+/node_modules/
+/npm-*
+
+# Bower
+#-------------------------
+/bower_components/
+
+
+# SASS
+#-------------------------
+/.sass-cache/
+/**/.sass-cache/
+
+# Build CSS & JS
+#-------------------------
+/build/
+/**/.css-cache/
+/**/.js-cache/
